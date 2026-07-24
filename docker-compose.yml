@@ -2,9 +2,8 @@ version: '3.8'
 
 services:
   mailserver:
-    # Imagen oficial desde GitHub Container Registry
-    # Docker Hub (analogic/poste.io) está deprecado
-    image: ghcr.io/analogic/poste.io
+    # Imagen oficial de Poste.io desde Docker Hub
+    image: analogic/poste.io
     container_name: posteio
     hostname: ${MAIL_HOSTNAME}
     restart: unless-stopped
