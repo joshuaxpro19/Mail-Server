@@ -1,0 +1,13 @@
+# Environment
+.env
+
+# Poste.io data (contains emails, accounts, passwords)
+data/
+
+# Backups (optional, puede ser grande)
+backups/*.tar.gz
+backups/*.sql
+
+# Keep folder structure
+!data/.gitkeep
+!backups/.gitkeep
